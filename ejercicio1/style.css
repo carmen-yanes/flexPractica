@@ -1,0 +1,43 @@
+#example3{
+    display: grid;
+
+    justify-content: flex-start;
+
+    grid-template: 200px 200px 200px/ 4px 500px 750px;
+    grid-gap: 3px;
+}
+
+#example3>span{
+    width: 100%;
+    height: 100%;
+
+    margin: 0; 
+}
+
+
+#example3>.two{
+    background: hotpink;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    align-content:flex-end; 
+    
+}
+
+#example3>.three{
+    background: indianred;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    grid-template: 200px 500px 200px;
+}
+
+#example3>.four{
+    background: tomato;
+    grid-column: 2/4;
+    grid-row: 3/4;
+}   
+
+
+body{
+
+    background-color: aqua;
+}
